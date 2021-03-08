@@ -1,0 +1,104 @@
+body {
+    background-color: #242424;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar stuff */
+.navbar {
+    width: 100%;
+}
+
+.navbar-content {
+    width: calc(100% - 40px);
+    margin: 5px 20px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.branding {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.title,
+.subtitle {
+    display: inline-block;
+}
+
+.title {
+    color: #ddd;
+    font-size: 25px;
+}
+
+.subtitle {
+    padding-left: 10px;
+    font-size: 17px;
+    color: rgb(144, 103, 255)
+}
+
+.nav-items {
+    width: 100%;
+    text-align: right;
+}
+
+.nav-item {
+    cursor: pointer;
+    text-align: right;
+    padding: 0 7px;
+    display: inline-block;
+    margin: 0;
+}
+
+.nav-item > a {
+    text-decoration: none;
+    color: #888;
+    transition: 200ms ease-in-out;
+}
+
+.nav-item > a:hover {
+    color: rgb(144, 103, 255);
+    transition: 200ms ease-in-out;
+}
+
+/* Catalog stuff */
+.catalog {
+    width: 70%;
+    margin: auto;
+    padding-bottom: 70px;
+}
+
+.game-item {
+    display: inline-block;
+    width: 230px;
+    background-color: #333;
+    border-radius: 40px;
+}
+
+.game-cover,
+.game-name,
+.game-desc {
+    display: block;
+}
+
+.game-cover {
+    width: 100%;
+    border-radius: 40px 40px 0 0;
+}
+
+.game-info {
+    padding: 14px;
+}
+
+.play-btn {
+    text-align: center;
+    display: block;
+    color: white;
+    background-color: rgb(144, 103, 255);
+    padding: 7px;
+    width: 30%;
+    margin: auto;
+    border-radius: 10px;
+    text-decoration: none;
+}
